@@ -84,6 +84,7 @@ public class SearchPageTest {
     public void iAmAJobseekerOnNHSJobsWebsite() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+        driver.driver.driver;
         driver.get("https://www.jobs.nhs.uk/candidate/search");
         driver.manage().window().maximize();
         System.out.println("SearchPage is displayed");
@@ -115,6 +116,7 @@ public class SearchPageTest {
 
     }
 }
+
 
 
 
